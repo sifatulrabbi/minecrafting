@@ -36,7 +36,8 @@ evLoop:
 }
 
 func doRegisterReq() {
-	url := "http://localhost:8080/register-ip"
+	// url := "http://localhost:8080/register-ip"
+	url := "https://sifatulrabbi.com/minecraft/register-ip"
 	resp, err := http.Get(url)
 	if err != nil {
 		fmt.Printf("Error making request: %v\n", err)
